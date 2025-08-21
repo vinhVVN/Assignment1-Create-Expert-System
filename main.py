@@ -38,6 +38,7 @@ while True:
                 xacnhan_benh.append(trieuchung)
         
         if xacnhan_benh:
+            print("------------------------------------------ \n")
             print(f"Dua tren cac trieu chung, co kha nang {name} dang bi:")
             for trieuchung in xacnhan_benh:
                 for note in base:
